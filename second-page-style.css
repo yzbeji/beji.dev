@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+.social-media-png {
+    width: 30px;
+}
+.social-media {
+    float: right;
+    padding-right: 4.5%;
+    padding-top: 2%;
+}
+
+.contact-header {
+    height: 83px;
+    background-color: white;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+#first-link {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+     width: 31px;
+}
+body {
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#a9a9a9 0.8px, transparent 0.8px), radial-gradient(#a9a9a9 0.8px, #ffffff 0.8px);
+    background-size: 32px 32px;
+    background-position: 0 0,16px 16px;
+}
+#logo {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+     width: 130px;
+     margin-top: -15.6%;
+     margin-left: -4.5%;
+}
+
+.presentation {
+    border-color: black;
+    border: 1px solid;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 18%;
+    font-size: 125%;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#facultate {
+   width: 30px;
+   border-radius: 75%;
+}
+
+.my-skills {
+    font-size: 120%;
+    padding: 15px;
+    margin-bottom: 10%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'IBM Plex Mono', monospace;
+    border-color: black;
+    border: 1px solid black;
+}
+#cat {
+    height: 50px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 5px;
+}
