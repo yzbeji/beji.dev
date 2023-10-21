@@ -56,15 +56,15 @@ input_cmd.addEventListener('keypress', function ChangeName(event){
 })
 /* front-page(end) */
 function ChangeGitHub() {
-   document.getElementById('first-link').src = 'src-png-hrf/github-animate-start.gif'
+   document.getElementById('first-link').src = 'github-animate-start.gif'
    setTimeout(()=>{
-      document.getElementById('first-link').src = 'src-png-hrf/github-animate-stop.png'
+      document.getElementById('first-link').src = 'github-animate-stop.png'
    }, 1200)
 }
 function ChangeInstagram() {
-   document.getElementById('third-link').src = 'src-png-hrf/instagram-animate-start.gif'
+   document.getElementById('third-link').src = 'instagram-animate-start.gif'
    setTimeout(()=>{
-      document.getElementById('third-link').src = 'src-png-hrf/instagram-animate-stop.png'
+      document.getElementById('third-link').src = 'instagram-animate-stop.png'
    }, 1400)
 }
 
@@ -82,7 +82,7 @@ function Forward() {
       }
       else
          {
-            cat_id.src = 'src-png-hrf/cat-walking-reverse.gif'
+            cat_id.src = 'cat-walking-reverse.gif'
             clearInterval(Interval)
          }
    }, 20)
@@ -99,7 +99,7 @@ function Backward() {
       }
       else
          {
-            cat_id.src = 'src-png-hrf/cat-walking.gif'
+            cat_id.src = 'cat-walking.gif'
             clearInterval(Interval)
          }
    }, 20) 
